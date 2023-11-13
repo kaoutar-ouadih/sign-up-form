@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.first-column{
+    width: 40%;
+}
+.second-column{
+    width: 70%;
+    padding: 40px;
+}
+.image{
+    width: 100%;
+}
