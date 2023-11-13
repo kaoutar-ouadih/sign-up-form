@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Norse bold";
+    src: url(./fonts/Norse-Bold.otf);
+}
 .container{
     display: flex;
 }
 .first-column{
     width: 40%;
+    position: relative;
 }
 .second-column{
     width: 70%;
@@ -10,4 +15,35 @@
 }
 .image{
     width: 100%;
+}
+#position{
+    background-color: black;
+    opacity: 0.6;
+    position :absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 110px;
+    height: 110px;
+}
+#logo-text{
+    color: white;
+    font-family: "Norse bold";
+    font-size: 60px;
+}
+#credit{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    left: 30%;
+}
+#credit a{
+    color: white;
 }
