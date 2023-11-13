@@ -2,16 +2,19 @@
     font-family: "Norse bold";
     src: url(./fonts/Norse-Bold.otf);
 }
+body{
+    margin: 0px;
+}
 .container{
     display: flex;
 }
 .first-column{
-    width: 40%;
+    max-width: 40%;
     position: relative;
 }
 .second-column{
-    width: 70%;
-    padding: 40px;
+    max-width: 60%;
+    /* padding: 40px; */
 }
 .image{
     width: 100%;
@@ -46,4 +49,49 @@
 }
 #credit a{
     color: white;
+}
+button{
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 10px 40px;
+    box-shadow: none;
+    border: none;
+}
+.callToAction{
+    font-size: 24px;
+    font-weight: bold;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 20px;
+    padding: 30px 0px;
+}
+#first-part{
+    padding: 40px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+
+}
+.second-part{
+    padding: 40px;
+    font-weight: bold;
+}
+.second-part a{
+    text-decoration: none;
+    color: #596D48;
+}
+/* input:valid{
+    border: 1px solid #596D48;
+} */
+input:focus{
+    border: 3px solid rgb(142, 142, 242);
+    box-shadow: 0px 0px 5px 0px rgb(142, 142, 242);
 }
