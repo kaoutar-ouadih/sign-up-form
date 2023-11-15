@@ -79,11 +79,13 @@ form{
 #first-part{
     padding: 40px;
     box-shadow: 0px 0px 10px 2px #ccc;
+    padding-bottom: 10px;
 
 }
 .second-part{
     padding: 40px;
     font-weight: bold;
+    /* margin-left: -60px; */
 }
 .second-part a{
     text-decoration: none;
