@@ -66,10 +66,10 @@ button{
 .inputs{
     display: flex;
     flex-direction: column;
-    min-width: 280px;
+    min-width: 230px;
 }
 form{
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 60px;
